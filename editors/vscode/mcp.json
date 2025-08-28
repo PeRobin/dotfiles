@@ -1,0 +1,21 @@
+{
+  "servers": {
+    // "ado": {
+    //   "type": "stdio",
+    //   "command": "npx",
+    //   "args": ["-y", "@azure-devops/mcp", "${input:ado_org}"]
+    // },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    }
+  },
+  "inputs": [
+    {
+      "id": "ado_org",
+      "type": "promptString",
+      "description": "Azure DevOps organization name  (e.g. 'contoso')"
+    }
+  ]
+}
