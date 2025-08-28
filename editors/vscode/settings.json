@@ -1,0 +1,70 @@
+{
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.layoutControl.enabled": false,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "chat.modeFilesLocations": {
+    "chatmodes": true
+  },
+  "chat.promptFilesLocations": {
+    "prompts": true
+  },
+  "chat.instructionsFilesLocations": {
+    "instructions": true
+  },
+  "files.associations": {
+    "*.chatmode.md": "markdown",
+    "*.instructions.md": "markdown",
+    "*.prompt.md": "markdown"
+  },
+  "search.exclude": {
+    "**/.angular/cache/*": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "vscode-pets.petColor": "yellow",
+  "vscode-pets.petSize": "small",
+  "vscode-pets.throwBallWithMouse": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "@azure.argTenant": "",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
