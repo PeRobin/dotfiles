@@ -1,8 +1,6 @@
-# [core]
-# 	editor = \"C:\\Users\\<username>\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
-# [user]
-# 	name = Robin Pedersen
-# 	email = <email>
+[user]
+	email = 15212085+PeRobin@users.noreply.github.com
+	name = PeRobin
 [alias]
 	s = "status --short --branch"
 	st = "status"
