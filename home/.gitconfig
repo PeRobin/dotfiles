@@ -47,3 +47,5 @@
 	autocorrect = prompt
 [commit]
 	verbose = true
+[core]
+	editor = code --wait
