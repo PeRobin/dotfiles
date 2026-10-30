@@ -1,11 +1,13 @@
 # Delivery team
 
-Seven self-contained agents and three skills for requirements, design, implementation and review. Start with `delivery-lead`, which coordinates the six specialists as needed.
+Seven self-contained agents for requirements, design, implementation and review. Start with `delivery-lead`, which coordinates the six specialists as needed.
+
+Agents live in `delivery-team/agents/`. The three supporting skills live alongside the repository's existing skills in [`home/.config/opencode/skills/`](../home/.config/opencode/skills/): `requirements-architect`, `ux-advisor` and `design-advisor`.
 
 ## Install in OpenCode
 
-- **Project:** copy `agents/` into your project's `.opencode/agents/` and `skills/` into `.opencode/skills/`.
-- **Global:** copy `agents/` into `~/.config/opencode/agents/` and `skills/` into `~/.config/opencode/skills/`.
+- **Project:** copy this folder's `agents/` into your project's `.opencode/agents/`. Copy the three supporting skill directories from `home/.config/opencode/skills/` into the project's `.opencode/skills/`.
+- **Global:** copy this folder's `agents/` into `~/.config/opencode/agents/`. Copy the three supporting skill directories from `home/.config/opencode/skills/` into `~/.config/opencode/skills/`.
 
 Merge folders if they already exist. Quit and restart OpenCode, then select `delivery-lead` and describe the outcome you want. No models are fixed; agents inherit your model selection.
 
