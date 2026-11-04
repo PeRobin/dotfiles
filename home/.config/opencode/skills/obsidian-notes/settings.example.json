@@ -1,0 +1,11 @@
+{
+  "cli": "obsidian",
+  "vaults": [
+    {
+      "name": "Example Vault",
+      "context": "Example professional notes; replace with your selection context",
+      "root": "~/vaults/example",
+      "app_root": "C:\\Users\\YOUR_USER\\Documents\\Example Vault"
+    }
+  ]
+}
